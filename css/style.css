@@ -77,10 +77,10 @@ body {
 }
 
 .left .first {
-    width: 270px;
+    width: 240px;
     border-radius: 15px;
     margin-bottom: 1rem;
-    height: auto;
+    height: 310px;
 }
 
 .left h1 {
