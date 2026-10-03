@@ -59,7 +59,6 @@ body {
     grid-template-columns: 40% 60%;
     grid-template-areas:
         "left right";
-    gap: 2rem;
     padding: 2rem;
 }
 
@@ -91,25 +90,26 @@ body {
     padding-bottom: 5rem;
 }
 
-.left p{
+.left p {
     font-family: "Work Sans", sans-serif;
     font-weight: 500;
     font-style: normal;
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
+    color: gray;
 }
 
-.icons{
+.icons {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
 }
 
-.icons a{
+.icons a {
     transition: 0.2s;
 }
 
-.icons a:hover{
+.icons a:hover {
     background-color: rgb(215, 214, 214);
     border-radius: 5px;
 
@@ -118,4 +118,174 @@ body {
 .icons img {
     width: 30px;
     height: auto;
+}
+
+/* Home */
+
+.home {
+    color: white;
+}
+
+.texts-home {
+    margin-bottom: 5rem;
+}
+
+.texts-home h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 7rem;
+}
+
+.word2 span {
+    color: #b6b4bd35;
+}
+
+.hero__texts__hero-title .word,
+.hero__texts__hero-title .word2 {
+    display: block;
+    white-space: nowrap;
+}
+
+.hero__texts__hero-title span span {
+    display: inline-block;
+}
+
+.hero__texts__hero-title span span:hover {
+    transition: 0.4s;
+    animation: letterMove 0.45s ease-in-out;
+}
+
+.hero__texts__hero-title .word span:hover{
+    color: #b6b4bd35;
+}
+
+.hero__texts__hero-title .word2 span:hover{
+    color: white;
+}
+
+@keyframes letterMove {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-12px);
+    }
+
+    45% {
+        transform: translateX(12px);
+    }
+
+    65% {
+        transform: translateX(-4px);
+    }
+
+    82% {
+        transform: translateX(2px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.texts-home p {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #b6b4bdbf;
+    font-size: 1.2rem;
+    width: 70%;
+}
+
+.statics-home {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 5rem;
+    gap: 5rem;
+}
+
+.statics h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6rem;
+}
+
+.statics p {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #b6b4bdbf;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+.statics:nth-child(2) h2 {
+    width: 50%;
+}
+
+.statics:last-child {
+    position: relative;
+    left: -7.1rem;
+}
+
+.cards-home{
+    display: flex;
+    gap: 2rem;
+}
+
+.cards-home .card:first-child{
+    background-color: rgb(8, 8, 65);
+    border-radius: 15px;
+    padding: 4rem 1rem;
+}
+
+.cards-home .card:last-child{
+    background-color: #b6b4bd16;
+    border-radius: 15px;
+    padding: 4rem 1rem;
+    margin-right: 5rem;
+}
+
+.card:first-child h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    top: -1rem;
+    left: 1rem;
+    width: 120%;
+}
+
+.card:first-child p{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    font-size: 2rem;
+    width: 100%;
+
+}
+
+.card:last-child h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    top: -1rem;
+  
+}
+
+.card:last-child p{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top: 2rem;
+    font-size: 1.4rem;
+
 }
