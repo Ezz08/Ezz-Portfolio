@@ -49,5 +49,73 @@ body {
 
 .nav a:hover {
     transform: translateY(-4px);
-    color: #b6b4bd34;
+    color: #b6b4bd9f;
+}
+
+/* Main */
+
+.container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+        "left right";
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.left {
+    grid-area: left;
+    position: sticky;
+    top: 2rem;
+    height: fit-content;
+    background: white;
+    padding: 2rem;
+    width: 60%;
+    margin-left: 7rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.left .first {
+    width: 270px;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    height: auto;
+}
+
+.left h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    font-style: normal;
+    padding-bottom: 5rem;
+}
+
+.left p{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.icons a{
+    transition: 0.2s;
+}
+
+.icons a:hover{
+    background-color: rgb(215, 214, 214);
+    border-radius: 5px;
+
+}
+
+.icons img {
+    width: 30px;
+    height: auto;
 }
