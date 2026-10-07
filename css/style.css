@@ -400,6 +400,10 @@ body {
 
 /* Journey */
 
+.journey {
+    margin-bottom: 4rem;
+}
+
 .journey__texts__journey-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -436,7 +440,7 @@ body {
     color: white;
 }
 
-.journey-texts{
+.journey-texts {
     border-radius: 10px;
     padding: 2rem;
     transition: 0.2s;
@@ -447,7 +451,7 @@ body {
     transform: scale(1.04);
 }
 
-.journey-texts h2{
+.journey-texts h2 {
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
@@ -464,6 +468,108 @@ body {
 
 }
 
-.journey-texts p:first-child{
+.journey-texts p:first-child {
     font-size: 12px;
+}
+
+/* Skills */
+
+.skills-parent,
+.skill {
+    display: flex;
+    align-items: center;
+}
+
+.skill {
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding: 2rem;
+    transition: 0.2s;
+}
+
+.skill:hover {
+    background-color: rgba(128, 128, 128, 0.084);
+    transform: scale(1.04);
+}
+
+
+.right-vertical .skill:first-child h2 {
+    width: 70%;
+    font-size: 20px;
+
+}
+
+.left-vertical .skill:first-child img,
+.left-vertical .skill:nth-child(2) img,
+.left-vertical .skill:nth-child(3) img {
+    padding: 10px;
+}
+
+.skills-parent {
+    gap: 3rem;
+}
+
+
+.skills__texts__skills-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 7rem;
+    margin-bottom: 3rem;
+}
+
+.word {
+    color: white;
+}
+
+
+.skills__texts__skills-title .word,
+.skills__texts__skills-title .word2 {
+    display: block;
+    white-space: nowrap;
+}
+
+.skills__texts__skills-title span span {
+    display: inline-block;
+}
+
+.skills__texts__skills-title span span:hover {
+    transition: 0.4s;
+    animation: letterMove 0.45s ease-in-out;
+}
+
+.skills__texts__skills-title .word span:hover {
+    color: #b6b4bd35;
+}
+
+.skills__texts__skills-title .word2 span:hover {
+    color: white;
+}
+
+.img-skill {
+    max-width: 70px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.img-skill img {
+    width: 100%;
+    height: auto;
+}
+
+.text-skill h2 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    top: -0.5rem;
+}
+
+.text-skill p {
+    color: #b6b4bdbf;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
