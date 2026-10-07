@@ -157,11 +157,11 @@ body {
     animation: letterMove 0.45s ease-in-out;
 }
 
-.hero__texts__hero-title .word span:hover{
+.hero__texts__hero-title .word span:hover {
     color: #b6b4bd35;
 }
 
-.hero__texts__hero-title .word2 span:hover{
+.hero__texts__hero-title .word2 span:hover {
     color: white;
 }
 
@@ -232,25 +232,25 @@ body {
     left: -7.1rem;
 }
 
-.cards-home{
+.cards-home {
     display: flex;
     gap: 2rem;
 }
 
-.cards-home .card:first-child{
+.cards-home .card:first-child {
     background-color: rgb(8, 8, 65);
     border-radius: 15px;
     padding: 4rem 1rem;
 }
 
-.cards-home .card:last-child{
+.cards-home .card:last-child {
     background-color: #b6b4bd16;
     border-radius: 15px;
     padding: 4rem 1rem;
     margin-right: 5rem;
 }
 
-.card:first-child h1{
+.card:first-child h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -260,7 +260,7 @@ body {
     width: 120%;
 }
 
-.card:first-child p{
+.card:first-child p {
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -272,16 +272,16 @@ body {
 
 }
 
-.card:last-child h1{
+.card:last-child h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
     position: relative;
     top: -1rem;
-  
+
 }
 
-.card:last-child p{
+.card:last-child p {
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -293,7 +293,7 @@ body {
 
 /* Projects */
 
-.project{
+.project {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -304,11 +304,11 @@ body {
 }
 
 
-.project:hover{
+.project:hover {
     background-color: rgba(128, 128, 128, 0.084);
 }
 
-.project img{
+.project img {
     width: 200px;
     height: auto;
     border-radius: 10px;
@@ -322,7 +322,7 @@ body {
     margin-bottom: 3rem;
 }
 
-.word{
+.word {
     color: white;
 }
 
@@ -342,37 +342,37 @@ body {
     animation: letterMove 0.45s ease-in-out;
 }
 
-.project__texts__project-title .word span:hover{
+.project__texts__project-title .word span:hover {
     color: #b6b4bd35;
 }
 
-.project__texts__project-title .word2 span:hover{
+.project__texts__project-title .word2 span:hover {
     color: white;
 }
 
-.project-texts h2{
+.project-texts h2 {
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
 }
 
-.project-texts p{
+.project-texts p {
     color: #b6b4bdbf;
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     width: 70%;
- 
+
 }
 
-.project-texts h2{
+.project-texts h2 {
     position: relative;
     top: -1rem;
 }
 
-.projects-button{
-    margin-bottom: 5rem;
+.projects-button {
+    margin-bottom: 7rem;
     background-color: #181818fb;
     border-radius: 10px;
     width: 26%;
@@ -384,11 +384,11 @@ body {
 
 }
 
-.projects-button:hover{
+.projects-button:hover {
     background-color: rgba(128, 128, 128, 0.204);
 }
 
-.projects-button a{
+.projects-button a {
     text-decoration: none;
     color: white;
     font-family: "Work Sans", sans-serif;
@@ -397,4 +397,71 @@ body {
     font-size: 1.2rem;
 }
 
+/* Journey */
 
+.journey__texts__journey-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 7rem;
+    margin-bottom: 3rem;
+}
+
+.word {
+    color: white;
+}
+
+
+.journey__texts__journey-title .word,
+.journey__texts__journey-title .word2 {
+    display: block;
+    white-space: nowrap;
+}
+
+.journey__texts__journey-title span span {
+    display: inline-block;
+}
+
+.journey__texts__journey-title span span:hover {
+    transition: 0.4s;
+    animation: letterMove 0.45s ease-in-out;
+}
+
+.journey__texts__journey-title .word span:hover {
+    color: #b6b4bd35;
+}
+
+.journey__texts__journey-title .word2 span:hover {
+    color: white;
+}
+
+.journey-texts{
+    border-radius: 10px;
+    padding: 2rem;
+    transition: 0.2s;
+}
+
+.journey-texts:hover {
+    background-color: rgba(128, 128, 128, 0.084);
+}
+
+.journey-texts h2{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.7rem;
+}
+
+.journey-texts p {
+    color: #b6b4bdbf;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 70%;
+
+}
+
+.journey-texts p:first-child{
+    font-size: 12px;
+}
