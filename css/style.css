@@ -508,6 +508,7 @@ body {
 
 .skills-parent {
     gap: 3rem;
+    margin-bottom: 4rem;
 }
 
 
@@ -572,4 +573,136 @@ body {
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/* Contact */
+
+.contact__texts__contact-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 7rem;
+    margin-bottom: 3rem;
+}
+
+.word {
+    color: white;
+}
+
+
+.contact__texts__contact-title .word,
+.contact__texts__contact-title .word2 {
+    white-space: nowrap;
+}
+
+.contact__texts__contact-title span span {
+    display: inline-block;
+}
+
+.contact__texts__contact-title span span:hover {
+    transition: 0.4s;
+    animation: letterMove 0.45s ease-in-out;
+}
+
+.contact__texts__contact-title .word span:hover {
+    color: #b6b4bd35;
+}
+
+.contact__texts__contact-title .word2 span:hover {
+    color: white;
+}
+
+.nameAndEmail {
+    display: flex;
+    
+}
+
+
+.name input,
+.email input {
+    background-color: #302f2f;
+    border: 1px solid #161616;
+    border-radius: 10px;
+    padding: 0.7rem 1rem;
+    margin-bottom: 3rem;
+    position: relative;
+    left: -3rem;
+    color: #b6b4bd;
+    width: 23.4rem;
+}
+
+
+/* Labels */
+
+.name label,
+.email label {
+    color: #b6b4bdbf;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top: -2rem;
+}
+
+
+input::placeholder {
+    color: #b6b4bdbf;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.message label {
+    color: #b6b4bdbf;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top: -15rem;
+}
+
+
+/* Textarea */
+
+.message textarea {
+    background-color: #302f2f;
+    border: 1px solid #161616;
+    border-radius: 10px;
+    width: 90%;
+    position: relative;
+    left: -4rem;
+    height: 180px;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    color: #b6b4bd;
+}
+
+
+/* Textarea Placeholder */
+
+textarea::placeholder {
+    color: #b6b4bdbf;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.submit button{
+    background-color: rgb(8, 8, 65);
+    border: 1px solid rgb(8, 8, 65);
+    border-radius: 10px;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.9rem 23rem;
+    position: relative;
+    left: 0.5rem;
+    transition: 0.2s;
+}
+
+.submit button:hover{
+    cursor: pointer;
+    background-color: rgb(20, 20, 70);
 }
